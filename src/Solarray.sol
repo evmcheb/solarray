@@ -1263,14 +1263,14 @@ library Solarray {
     }
 
 
-    function addresss(address a) internal pure returns (address[] memory) {
+    function addresses(address a) internal pure returns (address[] memory) {
         address[] memory arr = new address[](1);
 		arr[0] = a;
         return arr;
     }
 
 
-    function addresss(address a,address b) internal pure returns (address[] memory) {
+    function addresses(address a,address b) internal pure returns (address[] memory) {
         address[] memory arr = new address[](2);
 		arr[0] = a;
 		arr[1] = b;
@@ -1278,7 +1278,7 @@ library Solarray {
     }
 
 
-    function addresss(address a,address b,address c) internal pure returns (address[] memory) {
+    function addresses(address a,address b,address c) internal pure returns (address[] memory) {
         address[] memory arr = new address[](3);
 		arr[0] = a;
 		arr[1] = b;
@@ -1287,7 +1287,7 @@ library Solarray {
     }
 
 
-    function addresss(address a,address b,address c,address d) internal pure returns (address[] memory) {
+    function addresses(address a,address b,address c,address d) internal pure returns (address[] memory) {
         address[] memory arr = new address[](4);
 		arr[0] = a;
 		arr[1] = b;
@@ -1297,7 +1297,7 @@ library Solarray {
     }
 
 
-    function addresss(address a,address b,address c,address d,address e) internal pure returns (address[] memory) {
+    function addresses(address a,address b,address c,address d,address e) internal pure returns (address[] memory) {
         address[] memory arr = new address[](5);
 		arr[0] = a;
 		arr[1] = b;
@@ -1308,7 +1308,7 @@ library Solarray {
     }
 
 
-    function addresss(address a,address b,address c,address d,address e,address f) internal pure returns (address[] memory) {
+    function addresses(address a,address b,address c,address d,address e,address f) internal pure returns (address[] memory) {
         address[] memory arr = new address[](6);
 		arr[0] = a;
 		arr[1] = b;
@@ -1320,7 +1320,7 @@ library Solarray {
     }
 
 
-    function addresss(address a,address b,address c,address d,address e,address f,address g) internal pure returns (address[] memory) {
+    function addresses(address a,address b,address c,address d,address e,address f,address g) internal pure returns (address[] memory) {
         address[] memory arr = new address[](7);
 		arr[0] = a;
 		arr[1] = b;
