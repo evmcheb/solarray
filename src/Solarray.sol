@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-library solarray {
+library Solarray {
     
     function uint8s(uint8 a) internal pure returns (uint8[] memory) {
         uint8[] memory arr = new uint8[](1);
