@@ -1,6 +1,6 @@
 # solarray ☀️ 
 
-A blazing-fast helper library for convenient dynamic arrays. Useful for writing `foundry` test cases that involve arrays. 
+A blazing-fast helper library for convenient Solidity dynamic arrays. Useful for writing `foundry` test cases that involve arrays. 
 
 ## Installation
 
