@@ -10,7 +10,7 @@ A blazing-fast helper library for convenient dynamic arrays. Useful for writing 
 
 ## Usage
 
-`uint8[] memory nums = solarray.uint8s(1, 2, 3);`
+`uint8[] memory nums = Solarray.uint8s(1, 2, 3);`
 
 Supports 1-8 arguments from most of the common types. 
 
