@@ -1,13 +1,13 @@
 base = """// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-library DynamicArrays {{
+library solarray {{
     {}
 }}
 """
 
 func = """
-    function {0}s({1}) public pure returns ({0}[] memory) {{
+    function {0}s({1}) internal pure returns ({0}[] memory) {{
         {0}[] memory arr = new {0}[]({2});
 {3}
         return arr;
