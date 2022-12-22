@@ -1,18 +1,23 @@
 # solarray ☀️ 
 
-A blazing-fast helper library for convenient Solidity dynamic arrays. Useful for writing `foundry` test cases that involve arrays. 
+Wish Solidity had more concise array initialisation?
+
+*Solarray* is a blazing-fast helper library for convenient Solidity dynamic arrays. Useful for writing `foundry` test cases that involve arrays. 
+
+## Usage
+
+```
+uint8[] memory nums = Solarray.uint8s(1, 2, 3);
+address[] memory tokens = Solarray.addresses(address(0), address(1));
+```
+
+Supports 1-8 arguments from most of the common types. 
 
 ## Installation
 
 `forge install evmcheb/solarray`
 
 `import {Solarray} from "solarray/solarray.sol";`
-
-## Usage
-
-`uint8[] memory nums = Solarray.uint8s(1, 2, 3);`
-
-Supports 1-8 arguments from most of the common types. 
 
 ## Adding new types
 
