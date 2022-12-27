@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: MIT
 
+import { SD1x18 } from "prb-math/SD1x18.sol";
+import { SD59x18 } from "prb-math/SD59x18.sol";
+import { UD2x18 } from "prb-math/UD2x18.sol";
+import { UD60x18 } from "prb-math/UD60x18.sol";
+
 library Solarray {
     
     function uint8s(uint8 a) internal pure returns (uint8[] memory) {
@@ -1471,5 +1476,283 @@ library Solarray {
         return arr;
     }
 
+    function SD1x18s(SD1x18 a) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](1);
+		arr[0] = a;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](2);
+		arr[0] = a;
+		arr[1] = b;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b,SD1x18 c) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](3);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b,SD1x18 c,SD1x18 d) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](4);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b,SD1x18 c,SD1x18 d,SD1x18 e) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](5);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b,SD1x18 c,SD1x18 d,SD1x18 e,SD1x18 f) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](6);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+        return arr;
+    }
+
+
+    function SD1x18s(SD1x18 a,SD1x18 b,SD1x18 c,SD1x18 d,SD1x18 e,SD1x18 f,SD1x18 g) internal pure returns (SD1x18[] memory) {
+        SD1x18[] memory arr = new SD1x18[](7);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+		arr[6] = g;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](1);
+		arr[0] = a;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](2);
+		arr[0] = a;
+		arr[1] = b;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b,SD59x18 c) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](3);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b,SD59x18 c,SD59x18 d) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](4);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b,SD59x18 c,SD59x18 d,SD59x18 e) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](5);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b,SD59x18 c,SD59x18 d,SD59x18 e,SD59x18 f) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](6);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+        return arr;
+    }
+
+
+    function SD59x18s(SD59x18 a,SD59x18 b,SD59x18 c,SD59x18 d,SD59x18 e,SD59x18 f,SD59x18 g) internal pure returns (SD59x18[] memory) {
+        SD59x18[] memory arr = new SD59x18[](7);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+		arr[6] = g;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](1);
+		arr[0] = a;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](2);
+		arr[0] = a;
+		arr[1] = b;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b,UD2x18 c) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](3);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b,UD2x18 c,UD2x18 d) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](4);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b,UD2x18 c,UD2x18 d,UD2x18 e) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](5);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b,UD2x18 c,UD2x18 d,UD2x18 e,UD2x18 f) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](6);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+        return arr;
+    }
+
+
+    function UD2x18s(UD2x18 a,UD2x18 b,UD2x18 c,UD2x18 d,UD2x18 e,UD2x18 f,UD2x18 g) internal pure returns (UD2x18[] memory) {
+        UD2x18[] memory arr = new UD2x18[](7);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+		arr[6] = g;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](1);
+		arr[0] = a;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](2);
+		arr[0] = a;
+		arr[1] = b;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b,UD60x18 c) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](3);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b,UD60x18 c,UD60x18 d) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](4);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b,UD60x18 c,UD60x18 d,UD60x18 e) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](5);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b,UD60x18 c,UD60x18 d,UD60x18 e,UD60x18 f) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](6);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+        return arr;
+    }
+
+
+    function UD60x18s(UD60x18 a,UD60x18 b,UD60x18 c,UD60x18 d,UD60x18 e,UD60x18 f,UD60x18 g) internal pure returns (UD60x18[] memory) {
+        UD60x18[] memory arr = new UD60x18[](7);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+		arr[6] = g;
+        return arr;
+    }
 }
 

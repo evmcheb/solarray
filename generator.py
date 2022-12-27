@@ -16,6 +16,7 @@ types = ['uint8', 'uint16', 'uint32', 'uint64', 'uint128', 'uint256', \
     'int8', 'int16', 'int32', 'int64', 'int128', 'int256', \
     'bytes1', 'bytes8', 'bytes16', 'bytes20', 'bytes32', \
     'bytes memory', 'address', 'bool', 'string memory', \
+    'SD1x18', 'SD59x18', 'UD2x18', 'UD60x18' \
 ]
 
 length = 8
