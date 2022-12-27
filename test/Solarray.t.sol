@@ -7,20 +7,20 @@ import "../src/Solarray.sol";
 contract SolarrayTest is Test {
     function setUp() public {}
 
-    function testUints() public {
-        uint8[] memory uints = Solarray.uint8s(0, 1, 2);
-        assertEq(uints.length, 3);
-        assertEq(uints[0], 0);
-        assertEq(uints[1], 1);
-        assertEq(uints[2], 2);
+    function testUint8s() public {
+        uint8[] memory uint8s = Solarray.uint8s(0, 1, 2);
+        assertEq(uint8s.length, 3);
+        assertEq(uint8s[0], 0);
+        assertEq(uint8s[1], 1);
+        assertEq(uint8s[2], 2);
     }
 
     function testUint256s() public {
-        uint256[] memory uints = Solarray.uint256s(0, 1, 2);
-        assertEq(uints.length, 3);
-        assertEq(uints[0], 0);
-        assertEq(uints[1], 1);
-        assertEq(uints[2], 2);
+        uint256[] memory uint256s = Solarray.uint256s(0, 1, 2);
+        assertEq(uint256s.length, 3);
+        assertEq(uint256s[0], 0);
+        assertEq(uint256s[1], 1);
+        assertEq(uint256s[2], 2);
     }
 
     function testStrings() public {
