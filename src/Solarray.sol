@@ -210,7 +210,75 @@ library Solarray {
 		arr[6] = g;
         return arr;
     }
+    
+    function uint40s(uint40 a) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](1);
+		arr[0] = a;
+        return arr;
+    }
 
+
+    function uint40s(uint40 a,uint40 b) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](2);
+		arr[0] = a;
+		arr[1] = b;
+        return arr;
+    }
+
+
+    function uint40s(uint40 a,uint40 b,uint40 c) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](3);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+        return arr;
+    }
+
+
+    function uint40s(uint40 a,uint40 b,uint40 c,uint40 d) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](4);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+        return arr;
+    }
+
+
+    function uint40s(uint40 a,uint40 b,uint40 c,uint40 d,uint40 e) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](5);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+        return arr;
+    }
+
+
+    function uint40s(uint40 a,uint40 b,uint40 c,uint40 d,uint40 e,uint40 f) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](6);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+        return arr;
+    }
+
+
+    function uint40s(uint40 a,uint40 b,uint40 c,uint40 d,uint40 e,uint40 f,uint40 g) internal pure returns (uint40[] memory) {
+        uint40[] memory arr = new uint40[](7);
+		arr[0] = a;
+		arr[1] = b;
+		arr[2] = c;
+		arr[3] = d;
+		arr[4] = e;
+		arr[5] = f;
+		arr[6] = g;
+        return arr;
+    }
 
     function uint64s(uint64 a) internal pure returns (uint64[] memory) {
         uint64[] memory arr = new uint64[](1);

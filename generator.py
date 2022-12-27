@@ -12,7 +12,7 @@ func = """
         return arr;
     }}
 """
-types = ['uint8', 'uint16', 'uint32', 'uint64', 'uint128', 'uint256', \
+types = ['uint8', 'uint16', 'uint32', 'uint40', 'uint64', 'uint128', 'uint256', \
     'int8', 'int16', 'int32', 'int64', 'int128', 'int256', \
     'bytes1', 'bytes8', 'bytes16', 'bytes20', 'bytes32', \
     'bytes memory', 'address', 'bool', 'string memory', \
