@@ -8,11 +8,19 @@ contract SolarrayTest is Test {
     function setUp() public {}
 
     function testUint8s() public {
-        uint8[] memory uints = Solarray.uint8s(0, 1, 2);
-        assertEq(uints.length, 3);
-        assertEq(uint256(uints[0]), 0);
-        assertEq(uint256(uints[1]), 1);
-        assertEq(uint256(uints[2]), 2);
+        uint8[] memory uint8s = Solarray.uint8s(0, 1, 2);
+        assertEq(uint8s.length, 3);
+        assertEq(uint8s[0], 0);
+        assertEq(uint8s[1], 1);
+        assertEq(uint8s[2], 2);
+    }
+
+    function testUint256s() public {
+        uint256[] memory uint256s = Solarray.uint256s(0, 1, 2);
+        assertEq(uint256s.length, 3);
+        assertEq(uint256s[0], 0);
+        assertEq(uint256s[1], 1);
+        assertEq(uint256s[2], 2);
     }
 
     function testStrings() public {
