@@ -22,7 +22,7 @@ forge install evmcheb/solarray
 ## Usage
 
 ```sh
-import {Solarray} from "solarray/solarray.sol";
+import {Solarray} from "solarray/Solarray.sol";
 ```
 
 ## Adding new types
