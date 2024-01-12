@@ -1,0 +1,13 @@
+{
+  "name": "solarray",
+  "description": "A blazing-fast helper library for convenient Solidity dynamic arrays",
+  "version": "1.0.0",
+  "author": "evmcheb",
+  "bugs": "https://github.com/evmcheb/solarray/issues",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/evmcheb/solarray#readme",
+  "license": "(Apache-2.0 OR MIT)",
+  "repository": "github.com/evmcheb/solarray"
+}
